@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Koding</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="lesson-title">Belajar Koding</h1>
+        <button onclick="window.location.href='index.html'">Kembali</button>
+    </header>
+
+    <main>
+        <h2 id="lesson-subtitle"></h2>
+        <p id="lesson-content">Memuat materi...</p>
+
+        <h3>Praktik Langsung:</h3>
+        <textarea id="code-editor"></textarea>
+        <button onclick="runCode()">Jalankan</button>
+
+        <h3>Hasil:</h3>
+        <iframe id="output"></iframe>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
