@@ -1,34 +1,10 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background-color: #f4f4f4;
-}
-
-header {
-    background: #333;
-    color: white;
-    padding: 10px;
-}
-
-.language-list button, button {
-    margin: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
 textarea {
-    width: 80%;
-    height: 150px;
-    font-size: 16px;
-    margin-top: 10px;
-}
-
-iframe {
-    width: 80%;
-    height: 200px;
-    border: 1px solid black;
-    background: white;
+    width: 90%;  /* Membuat lebar 90% dari lebar halaman */
+    height: 400px;  /* Membuat tinggi 400px */
+    font-size: 16px;  /* Ukuran font lebih besar */
+    margin-top: 20px;
+    padding: 10px;  /* Memberi padding pada text area */
+    border: 2px solid #ccc;  /* Memberi border */
+    border-radius: 5px;  /* Memberikan sudut yang sedikit melengkung */
+    box-sizing: border-box;  /* Memastikan padding dihitung dalam ukuran total */
 }
